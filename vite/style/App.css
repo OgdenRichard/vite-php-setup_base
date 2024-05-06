@@ -1,0 +1,72 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+@font-face {
+  font-family: copperplate;
+  src: url('../assets/fonts/OPTICopperplate.otf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  font-size: 12px;
+  font-family: copperplate, 'Roboto', 'Arial';
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+figure {
+  margin: 10px;
+}
+
+.table_container {
+  overflow-x: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.header__logo {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.header__logo > img {
+  width: 8em;
+  margin-bottom: 0.5em;
+}
+
+.sort {
+  margin-left: 16px;
+}
+
+.bbox {
+  border: 1px solid white;
+}
+
+.switchmode {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
