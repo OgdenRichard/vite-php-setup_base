@@ -9,7 +9,7 @@ export default defineConfig({
   // add conf for php
   build: {
     assetsDir: '',
-    outDir: '../public/assets',
+    outDir: './public/assets',
     manifest: true,
     rollupOptions: {
       /* output: {
