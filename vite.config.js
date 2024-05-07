@@ -8,6 +8,7 @@ export default defineConfig({
   base: '/vite',
   // add conf for php
   build: {
+    assetsDir: '',
     outDir: '../public/assets',
     manifest: true,
     rollupOptions: {
