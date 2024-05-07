@@ -15,7 +15,7 @@ export const Home = () => {
 
   return (
     <>
-      <PageTitle title="HRnet" variant="h3" my={5} />
+      <PageTitle title="HRnieet" variant="h3" my={5} />
       <FormView />
       {showModal && (
         <SuModal
